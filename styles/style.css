@@ -1,0 +1,251 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+
+.container {
+    width: 80%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/*    header   section   */
+
+.header-cover {
+    background-image: url('../img/Banner\ Image.png');
+    height: 600px;
+    border-radius: 10px;
+}
+
+.header-description {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 170px 0 0 0;
+}
+
+.header-text {
+    color: #FFF;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+    width: 480px;
+    margin: 0 auto;
+}
+
+/*    happy  new year section */
+
+.happy-newyear-section {
+    text-align: center;
+    margin: 60px auto;
+}
+
+.happy-newyear-title {
+    color: #F00;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.happy-newyear-description {
+    color: #F00;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 30px 0 15px 0;
+}
+
+.happy-newyear-text {
+    color: #070211;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.happy-newyear-section img {
+    width: 600px;
+}
+
+/*      welcome     section    */
+
+.welcome-section {
+    background-image: url('../img/Vectorrr.png');
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+    margin: 50px 0;
+}
+
+.welcome-box {
+    display: flex;
+}
+
+.welcome-item h3 {
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    width: 600px;
+    padding: 150px 30px 10px 100px;
+}
+
+.welcome-item p {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 620px;
+    padding: 0 30px 15px 100px;
+}
+
+.welcome-item button {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    padding: 30px 30px 15px 130px;
+}
+
+.welcome-img img {
+    width: 250px;
+    padding: 140px 30px 50px 0;
+}
+
+/*    location    section */
+
+.location-section {
+    background-color: #f7dedeb9;
+    height: 300px;
+    margin: 15px 0 50px 0;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.location-section span {
+    color: #F00;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.location-section h3 {
+    color: #070211;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.location-section button {
+    color: #FFF;
+    border-radius: 8px;
+    background: #F00;
+    border: none;
+    padding: 13px 18px;
+    margin-top: 40px;
+}
+
+/*     offer       section  */
+
+.offer-section {
+    display: flex;
+    gap: 20px;
+    margin: 50px 0;
+}
+
+.offer-title h5 {
+    color: #F00;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 100px 0 10px 0;
+}
+
+.offer-title h3 {
+    color: #070211;
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+.offer-title p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 370px;
+}
+
+.offer-img {
+    border: 10px solid #F00;
+    margin-top: 30px;
+    border-radius: 50%;
+    padding: 20px 20px;
+}
+
+.offer-img img {
+    width: 250px;
+}
+
+.offer-text {
+    text-align: center;
+}
+
+.offer-text h3 {
+    color: #F00;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 100px 0 10px 0;
+    text-align: center;
+}
+
+.offer-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+
+/*     holiday  section   */
+
+.holiday-section {
+    text-align: center;
+    margin: 40px 0 20px 0;
+}
+
+.holiday-section h5 {
+    color: #070211;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+.holiday-section h3 {
+    color: #070211;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.holiday-section span {
+    color: #F00;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.holiday-section p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    width: 700px;
+    margin: 0 auto;
+}
