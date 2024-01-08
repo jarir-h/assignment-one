@@ -217,7 +217,7 @@
 
 .holiday-section {
     text-align: center;
-    margin: 40px 0 20px 0;
+    margin: 40px 0 0 0;
 }
 
 .holiday-section h5 {
@@ -241,7 +241,7 @@
     margin-bottom: 20px;
 }
 
-.holiday-section p{
+.holiday-section p {
     color: rgba(7, 2, 17, 0.60);
     font-size: 16px;
     font-weight: 500;
@@ -249,3 +249,175 @@
     width: 700px;
     margin: 0 auto;
 }
+
+/*    discount    section    */
+
+.discount-section {
+    margin-bottom: 40px;
+}
+
+.discount-box {
+    display: flex;
+}
+
+.discount-box .discount-one {
+    position: relative;
+    left: -70px;
+    bottom: -195px;
+    width: 150px;
+}
+
+.discount-box .discount-two {
+    position: relative;
+    right: -245px;
+    bottom: -235px;
+    width: 150px;
+}
+
+.discount-box .discount-three {
+    position: relative;
+    right: -350px;
+    bottom: -235px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.discount-cover img {
+    width: 100%;
+}
+
+/*   portfolio   section   */
+
+.portfolio-title h5 {
+    color: #F00;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 35px 0 15px 0;
+}
+
+.portfolio-title h3 {
+    color: #070211;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.portfolio-title p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    width: 600px;
+}
+
+.portfolio-item {
+    display: flex;
+}
+
+.portfolio-box-one img {
+    width: 337px;
+    margin: 30px 20px 20px 0;
+}
+
+.portfolio-item-two {
+    display: flex;
+}
+
+.portfolio-box-two img {
+    width: 337px;
+    margin: 20px 20px 40px 0;
+}
+
+/*    suscribe    section   */
+
+.subscribe-section {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.subscribe-img img {
+    width: 100px;
+    padding: 60px 0 20px 0;
+}
+
+.subscribe-title h3 {
+    color: #070211;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.subscribe-title p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 600px;
+    margin: 20px auto;
+}
+.subscribe-title .input-one{
+   margin-bottom: 60px;
+   padding: 10px 30px;
+   border-radius: 50px 0 0 50px;
+   background: #FFF;
+   border: none;
+   color: rgb(107, 107, 107);
+}
+.subscribe-title .input-two{
+   margin-bottom: 60px;
+   padding: 10px 20px;
+   border-radius: 0px 50px 50px 0px;
+   background: #F00;
+   border: none;
+   width: 70px;
+   color: #FFF;
+}
+
+/*      footer   section   */
+
+footer{
+    background: #070211;
+}
+.footer-head {
+   display: flex;
+}
+.footer-head p{
+   color: #FFF;
+   text-align: left;
+   display: inline-block;
+   width: 300px;
+   padding: 100px 300px 60px 0;
+   font-size: 16px;
+   line-height: 20px;
+}
+ul{
+    list-style: none;
+    padding: 100px 300px 60px 0;
+}
+ul,i{
+    color: #FFF;
+}
+.footer-icon{
+    margin: 40px 0;
+    text-align: center;
+}
+.footer-icon img{
+    margin-left: 15px;
+}
+.footer-text{
+    padding: 20px 0 50px 0;
+    display: flex;
+}
+.footer-text p{
+    color: #FFF;
+}
+.footer-text .p-tag{
+    color: #FFF;
+    padding-left: 700px;
+}
+
+/*     footer   end   */
